@@ -1,7 +1,6 @@
 
 name = input("Digite o nome do seu herói: ")
 experience = int(input("Digite a quantidade de XP, ou seja, a experiência do seu herói: "))
-
 def determinar_nivel(experience):
     if experience < 1000:
         return "ferro"
